@@ -1,0 +1,174 @@
+/* Sudoku Solver UI - Updated CSS */
+
+/* Body Styling */
+body {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(120deg, #d7cbe8, #e7e0f4);
+  color: #333;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Sudoku Container Styling */
+.sudoku-container {
+  text-align: center;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  background: #fff;
+  border: 3px solid #7e3b8a;
+  transition: background 0.3s ease;
+  width: 400px;
+  position: relative;
+}
+
+/* Title Styling */
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #7e3b8a;
+  margin-bottom: 15px;
+  text-shadow: 2px 2px 3px #a67bbd;
+}
+
+/* Dark Mode Toggle Button */
+.toggle-mode {
+  background: #444;
+  color: #fff;
+  border: none;
+  padding: 8px 20px;
+  cursor: pointer;
+  border-radius: 20px;
+  font-size: 1rem;
+  transition: background 0.3s ease;
+  margin-bottom: 10px;
+}
+
+.toggle-mode:hover {
+  background: #333;
+}
+
+/* Sudoku Board Styling */
+.sudoku-board {
+  display: grid;
+  grid-template-columns: repeat(9, 40px);
+  gap: 1px;
+  border: 2px solid #7e3b8a;
+  padding: 5px;
+  background: #eee;
+  border-radius: 8px;
+  margin: 0 auto 10px auto;
+}
+
+/* Each Sudoku Cell Styling */
+.cell {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  font-size: 1.2rem;
+  border: 1px solid #ddd;
+  outline: none;
+  background: #fff;
+  color: #333;
+}
+
+/* Highlight the active cell */
+/* Highlight the active cell */
+.cell.active {
+  background: #fdd835;
+  outline: 2px solid #ffab00; /* Inner outline */
+  box-shadow: inset 0 0 0 2px #ffab00; /* Creates an inner border effect */
+  z-index: 2; /* Ensure it stays above other cells */
+}
+
+
+/* Controls Section Styling */
+.controls {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 5px;
+}
+
+/* Button General Styling */
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: transform 0.2s ease;
+}
+
+/* Solve Button */
+.solve-btn {
+  background: #4caf50;
+  color: #fff;
+}
+
+.solve-btn:hover {
+  background: #45a049;
+  transform: scale(1.05);
+}
+
+/* Reset Button */
+.reset-btn {
+  background: #f44336;
+  color: #fff;
+}
+
+.reset-btn:hover {
+  background: #d32f2f;
+  transform: scale(1.05);
+}
+
+/* Generate Puzzle Button */
+.generate-btn {
+  background: #fbb03b;
+  color: #fff;
+  font-weight: bold;
+  box-shadow: 2px 2px 3px #888;
+}
+
+.generate-btn:hover {
+  background: #f99a24;
+  transform: scale(1.05);
+}
+
+/* Dark Mode Adjustments */
+.sudoku-container.dark {
+  background: #2c2c2c;
+  color: #ddd;
+}
+
+.sudoku-container.dark .sudoku-board {
+  background: #444;
+  border-color: #7e3b8a;
+}
+
+.sudoku-container.dark .cell {
+  background: #555;
+  color: #ddd;
+}
+
+/* Mobile Optimization */
+@media (max-width: 500px) {
+  .sudoku-board {
+    grid-template-columns: repeat(9, 30px);
+  }
+
+  .cell {
+    width: 30px;
+    height: 30px;
+    font-size: 1rem;
+  }
+
+  button {
+    font-size: 0.9rem;
+    padding: 8px 15px;
+  }
+}

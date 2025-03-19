@@ -5,6 +5,7 @@ A clean and interactive Sudoku Solver built with React. It supports manual solvi
 ## 🖼️ Preview
 
 ![Sudoku Solver Preview](example.png)
+![Sudoku Solver Preview](example2.png)
 
 ## 🌟 Live Demo
 

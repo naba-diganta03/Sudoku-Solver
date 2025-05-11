@@ -1,24 +1,24 @@
-# 🧩 Sudoku Solver
+# Sudoku Solver
 
 A clean and interactive Sudoku Solver built with React. It supports manual solving, random puzzle generation and smooth keyboard navigation.
 
-## 🖼️ Preview
+## Preview
 
 ![Sudoku Solver Preview](example.png)
 ![Sudoku Solver Preview](example2.png)
 
-## 🌟 Live Demo
+## Live Demo
 
 [Try the Sudoku Solver here](https://sudoku-solver-gules.vercel.app/)
 
-## 🔧 Features
+## Features
 
-- ✅ **Instant Sudoku Solver** — Solves puzzles with a single click
-- 🎲 **Random Puzzle Generator** — Create new puzzles instantly
-- ⌨️ **Keyboard Navigation** — Move between cells using arrow keys
-- 🌙 **Dark Mode Support** — Toggle between light and dark themes
+- **Instant Sudoku Solver** — Solves puzzles with a single click
+- **Random Puzzle Generator** — Create new puzzles instantly (May be Solvable or Unsolvable)
+- **Keyboard Navigation** — Move between cells using arrow keys
+- **Dark Mode Support** — Toggle between light and dark themes
 
-## 🚀 Installation
+## Installation
 
 1. **Clone the repository:**
    ```bash
@@ -36,7 +36,7 @@ A clean and interactive Sudoku Solver built with React. It supports manual solvi
    npm start
    ```
 
-## 🚀 Deployment on Vercel
+## Deployment on Vercel
 
 1. **Install the Vercel CLI:**
    ```bash
@@ -50,16 +50,15 @@ A clean and interactive Sudoku Solver built with React. It supports manual solvi
 
 3. **Update the "Live Demo" link with your deployment URL.**
 
-## 👩‍💻 Tech Stack
+## Tech Stack
 
 - **Frontend:** React, CSS
 - **Deployment:** Vercel
 
-## 🔥 Author
+## Author
 
 Developed by [Nabadiganta Acharjee](https://github.com/naba-diganta03)
 
 ---
 
-✨ Happy Sudoku Solving! ✨
 

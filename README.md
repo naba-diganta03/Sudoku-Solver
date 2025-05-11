@@ -1,6 +1,6 @@
 # 🧩 Sudoku Solver
 
-A clean and interactive Sudoku Solver built with React. It supports manual solving, random puzzle generation, and smooth keyboard navigation.
+A clean and interactive Sudoku Solver built with React. It supports manual solving, random puzzle generation and smooth keyboard navigation.
 
 ## 🖼️ Preview
 

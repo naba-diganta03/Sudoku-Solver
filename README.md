@@ -59,10 +59,6 @@ A clean and interactive Sudoku Solver built with React. It supports manual solvi
 
 Developed by [Nabadiganta Acharjee](https://github.com/naba-diganta03)
 
-## 📄 License
-
-This project is open-source under the [MIT License](LICENSE).
-
 ---
 
 ✨ Happy Sudoku Solving! ✨
